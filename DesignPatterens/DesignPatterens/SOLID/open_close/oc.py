@@ -1,5 +1,20 @@
 from enum import Enum
 
+# 1. Open/Closed Principle (OCP) states that software entities should be
+#    open for extension but closed for modification. This means that the
+#    behavior of a module can be extended without modifying its source code.
+
+# 2. OCP promotes extensibility by allowing developers to add new features
+#    or functionalities by creating new classes or methods rather than altering
+#    existing code. This makes the software more adaptable to change.
+
+# 3. OCP enhances stability because existing code is not modified, reducing the
+#    risk of introducing bugs or errors into a stable, tested system, leading to
+#    more reliable and stable software.
+
+# 4. OCP supports polymorphism by encouraging the use of interfaces or abstract
+#    classes. New functionalities can be added by implementing new subclasses,
+#    without altering the existing system.
 
 class Color(Enum):
     RED=1
