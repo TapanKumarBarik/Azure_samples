@@ -1,0 +1,7 @@
+streamlit
+azure-ai-translation-text
+azure-core
+python-dotenv
+fastapi
+uvicorn
+python-multipart
